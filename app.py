@@ -8,6 +8,8 @@ import spacy_streamlit
 from string import punctuation
 from heapq import nlargest
 
+#spacy loaded model
+
 nlp = spacy.load("en_core_web_sm")
 stopwords = list(spacy.lang.en.stop_words.STOP_WORDS)
 punctuation += "\n"
